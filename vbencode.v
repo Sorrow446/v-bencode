@@ -5,8 +5,8 @@ import strings
 import x.json2
 
 struct Decoder {
-	mut:
-		f os.File
+mut:
+	f os.File
 }
 
 fn (mut decoder Decoder) read_str_of_len(str_len int) !string {
